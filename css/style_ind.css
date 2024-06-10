@@ -1,0 +1,407 @@
+/* style_ind.css */
+body {
+	background-image: url('../images/yacht_backgr.png');
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	color: white;
+	overflow-x: hidden;
+	font-family: 'Jomolhari', sans-serif;
+}
+
+
+
+.nav-link {
+	color: white !important;
+}
+
+.container-fluid {
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+	padding: 2%;
+	margin-left: 130px;
+}
+
+
+.description_list li {
+	line-height: 3;
+}
+
+.btn-enter {
+	background-color: #FF984D;
+	opacity: 86%;
+	margin-left: 16%;
+	color: white;
+	width: 40%;
+	border-radius: 10px;
+	font-size: 2vw;
+}
+
+.btn-enter:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.assortment {
+	text-align: center;
+}
+
+.carousel-caption {
+	background-color: #000000;
+	opacity: 70%;
+	margin-left: 18%;
+	margin-bottom: 3%;
+	width: 33%;
+	height: 15%;
+	border-radius: 5%;
+
+}
+
+.d-block {
+	border-radius: 5%;
+}
+
+.navbar-brand {
+	-webkit-text-stroke: #000000 0.8px;
+}
+
+.footer {
+	background: black;
+	opacity: 50%;
+	margin-top: auto;
+}
+
+.container-fluid.d-flex.justify-content-between {
+	margin-top: 0;
+
+}
+
+.map img {
+	border-radius: 10px;
+	margin-left: -10%;
+}
+
+.containter.map {
+	float: left;
+
+}
+
+.containter.contacts.right-container {
+	margin-right: 9%;
+	margin-top: 2%;
+}
+
+.contacts li {
+	font-size: 20px;
+	line-height: 4;
+}
+
+.contacts li img {
+	margin-right: 1%;
+}
+
+.contacts img {
+	width: 45px;
+	height: 45px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#photo1,
+#photo2 {
+	position: relative;
+	border-radius: 10px;
+}
+
+#photo1 {
+	z-index: 1;
+	top: -15%;
+	left: -5%;
+}
+
+#photo2 {
+	top: 20%;
+	left: -35%;
+}
+
+.all_ev {
+	margin-left: 15%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.text_details {
+	text-indent: 65px;
+	max-width: 430px;
+	text-align: justify;
+	margin-left: -290px;
+}
+
+.signature {
+	max-width: 430px;
+	text-align: justify;
+	margin-left: -195px;
+}
+
+.values {
+	max-width: 430px;
+	text-align: justify;
+	margin-left: -250px;
+}
+
+.text_details .signature .values {
+	padding-bottom: 20px;
+}
+
+.values::marker {
+	color: white;
+}
+
+.details {
+	margin-top: 5%;
+	margin-right: 11%;
+}
+
+
+.event {
+	position: relative;
+	margin-top: 5%;
+
+}
+
+.event::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	padding-left: 50%;
+	margin-top: -5%;
+	margin-left: -57%;
+	width: 110%;
+	height: 120%;
+	background-color: #DEBDBD;
+	/* Синий фон */
+	opacity: 15%;
+	border-radius: 15px;
+}
+
+.event::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	padding-left: 50%;
+	margin-top: -5%;
+	margin-left: -57%;
+	width: 110%;
+	height: 120%;
+	background-color: #D9D9D9;
+	opacity: 15%;
+	border-radius: 15px;
+}
+
+.event_detail {
+	margin-left: -50%;
+	max-width: 250px;
+	text-align: justify;
+	margin-top: 2%;
+}
+
+.name {
+
+	margin-bottom: 2px;
+	margin-left: -40%;
+
+}
+
+.img-center {
+	margin-left: -10%;
+	width: 50px;
+	height: 50px;
+	margin-top: -2%;
+}
+
+
+.navbar-nav {
+	margin-right: 50px;
+}
+
+
+@media (max-width: 1200px) {
+	.navbar-brand {
+		font-size: 2rem;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	.map_city {
+		max-width: 900px;
+	}
+
+	.container-fluid {
+		max-width: 970px;
+	}
+
+	.carousel-inner {
+		max-width: 970px;
+	}
+
+	.containter.photos {
+		max-width: 970px;
+	}
+
+	#photo1 {
+		max-width: 340px;
+	}
+
+	#photo2 {
+		max-width: 500px;
+	}
+}
+
+@media (max-width: 992px) {
+
+	.map_city {
+		max-width: 700px;
+	}
+
+	#photo1 {
+		max-width: 200px;
+	}
+
+	#photo2 {
+		max-width: 360px;
+	}
+
+	.navbar-brand {
+		font-size: 1.5rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	.container-fluid {
+		max-width: 750px;
+	}
+
+	.carousel-inner {
+		max-width: 750px;
+	}
+
+	.containter.photos {
+		max-width: 750px;
+	}
+}
+
+@media screen and (max-width: 481px) {
+	.description_p {
+		text-align: justify;
+		text-align: center;
+	}
+
+	.btn-enter {
+		margin-left: 30%;
+		font-size: 4vw;
+	}
+
+	.description_list {
+		margin-top: 8%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+	.assortment {
+		margin-top: 4%;
+		margin-bottom: 5%;
+	}
+
+	.carousel {
+		width: 90%;
+		margin: auto;
+	}
+
+	.carousel-item img {
+		height: auto;
+	}
+
+	.carousel-inner {
+		height: auto;
+	}
+
+	.d-flex {
+		flex-direction: column;
+	}
+
+	.photos, .details, .event {
+		width: 100%;
+	}
+
+	.photos {
+		margin-left: 30%;
+		
+	}
+
+	#photo1 {
+		max-width: 400px;
+		max-height: 200px;
+		left: -23%;
+	}
+
+	#photo2 {
+		margin-top: 1%;
+		left: -23%;
+		max-height: 200px;
+		max-width: 340px;
+	}
+
+	.text_details {
+		margin-left: 8%;
+		max-width: 330px;
+		text-indent: 0;
+	}
+
+	.signature {
+		margin-left: 28%;
+		margin-top: 10%;
+	}
+
+	.values {
+		margin-left: 16%;
+		margin-top:-3%;
+	}
+
+
+	.container.all_ev {
+		flex-direction: column;
+		margin-left: 47%;
+		max-width: 300px;
+	}
+
+	.event {
+		margin-top: 20%;
+		margin-bottom: 5%;
+	}
+
+	.map_city {
+		max-width: 330px;
+		max-height: 220px;
+	}
+
+	.map {
+		margin-left: 16%;
+	}
+
+	.contacts li {
+		margin-left: 5%;
+		font-size: 15px;
+  		margin-top: 5%;
+	}
+	
+}
